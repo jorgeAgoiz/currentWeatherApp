@@ -1,0 +1,24 @@
+{
+  "name": "webServerNode",
+  "version": "1.0.0",
+  "description": "Web Server with Node, exercise course",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeAgoiz/webServerNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgeAgoiz/webServerNode/issues"
+  },
+  "homepage": "https://github.com/jorgeAgoiz/webServerNode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
