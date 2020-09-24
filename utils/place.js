@@ -13,20 +13,9 @@ const getWeather = async (cityW, countryW) => {
     });
 
     const result = await instance.get();
-    
-    const currentTemp = result.data.main.temp;
-    const currentHumidity = result.data.main.humidity;
-    const nameCity = result.data.name;
-    const country = result.data.sys.country;
-    console.log(currentTemp, currentHumidity, nameCity, country);
 
-    return { currentTemp, currentHumidity, nameCity, country};
+    return result.data;
 };
-
-getWeather("Bristol", "GB")
-            .then(resp => {
-                console.log(resp);
-            });
 
 module.exports = {
     getWeather

@@ -8,7 +8,7 @@ body{
 
 #titleApp h1{
     font-family: 'Special Elite', cursive;
-    font-size: calc(2em + 2.4vw)
+    font-size: calc(1.2em + 2.8vw);
 }
 
 footer {
@@ -19,4 +19,9 @@ footer {
     position: fixed;
     bottom: 0px;
     font-family: 'Special Elite', cursive;
+}
+
+#datas {
+    font-family: 'Special Elite', cursive;
+    font-size: calc(1em + 1.4vw);
 }
