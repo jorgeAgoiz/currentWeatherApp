@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://professor-falken.com/wp-content/uploads/2017/01/manana-alba-ventana-rocio-lluvia-sol-amanecer-Fondos-de-Pantalla-HD-professor-falken.com_.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+#titleApp h1{
+    font-family: 'Special Elite', cursive;
+    font-size: calc(2em + 2.4vw)
+}
+
+footer {
+    background-color: #353A3F;
+    color: white;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    bottom: 0px;
+    font-family: 'Special Elite', cursive;
+}
