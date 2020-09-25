@@ -23,5 +23,9 @@ footer {
 
 #datas {
     font-family: 'Special Elite', cursive;
-    font-size: calc(1em + 1.4vw);
+    font-size: calc(0.8em + 1.2vw);   
+}
+
+.textRes{
+    background-color: rgba(250, 236, 196, 0.5);
 }

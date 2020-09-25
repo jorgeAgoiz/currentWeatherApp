@@ -10,28 +10,55 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div id="titleApp" class="row justify-content-center mt-4 mb-4 pt-4 pb-4">
+        <div id="titleApp" class="row justify-content-center mt-2 mb-2 pt-2 pb-2">
             <div class="col-12 text-center">
-                <h1>{{ cityName }}</h1>
-            </div>
-            <div class="col-12 text-center">
-                <h1>{{ countryName }}</h1>
-            </div>          
+                <h1>{{ cityName }},&nbsp;{{ countryName }}</h1>
+            </div>        
         </div>
 
-        <div id="datas" class="row justify-content-center mt-2 mb-2 pt-2 pb-2">
-            <div class="col-12 text-center">
+        <div id="datas" class="row justify-content-center mt-1 mb-1 pt-1 pb-1">
+            <div class="col-12 col-md-6 text-center textRes">
                 <p>Longitud:&nbsp&nbsp{{long}}<br>Latitud:&nbsp&nbsp{{lat}}</p>  
             </div> 
-        </div>
-
-        <div id="datas" class="row justify-content-center mt-2 mb-2 pt-2 pb-2">
-            <div class="col-12 text-center">
+            <div class="col-12 col-md-6 text-center textRes">
                 <p>Weather stat:&nbsp{{ weatherM }}<br>Description:&nbsp{{ weatherD }}</p>
             </div>
         </div>
-        
-            
+
+        <div id="datas" class="row justify-content-center mt-1 mb-1 pt-2 pb-2">
+            <div class="col-12 text-center textRes">
+                <p>Current Temperature:&nbsp;&nbsp;{{ currentTemp }}&#8451;</p>
+            </div>
+        </div>
+
+        <div id="datas" class="row justify-content-center mt-1 mb-1 pt-2 pb-2">
+            <div class="col-12 text-center textRes">
+                <p>Wind speed:&nbsp;&nbsp;{{ windSpeed }}</p>
+            </div>
+        </div>
+
+        <div id="datas" class="row justify-content-center mt-1 mb-1 pt-2 pb-2">
+            <div class="col-12 text-center textRes">
+                <p>Feels like:<br>{{ feelTemp }}&#8451;</p>
+            </div>
+        </div>
+
+        <div id="datas" class="row justify-content-center mt-1 mb-1 pt-2 pb-2">
+            <div class="col-12 col-md-6 text-center textRes">
+                <p>Temp min:&nbsp;&nbsp;{{ minTemp }}&#8451;</p>
+            </div>
+            <div class="col-12 col-md-6 text-center textRes">
+                <p>Temp max:&nbsp;&nbsp;{{ maxTemp }}&#8451;</p>
+            </div>
+        </div>
+
+        <div id="datas" class="row justify-content-center mt-1 mb-1 pt-2 pb-2">
+            <div class="col-12 col-md-6 text-center textRes">
+                <p>Pressure:&nbsp;&nbsp;{{ pressure }}&nbsp;hPa</p>
+            </div>
+            <div class="col-12 col-md-6 text-center textRes">
+                <p>Humidity:&nbsp;&nbsp;{{ humidity }}&nbsp;%</p>
+            </div>
         </div>
 
         <footer class="row justify-content-center">
@@ -39,8 +66,11 @@
                 Jorge Agoiz - 2020
             </div>        
         </footer>
-        
+
+            
     </div>
+
+        
         
 
 

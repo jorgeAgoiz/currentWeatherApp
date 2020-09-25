@@ -41,7 +41,14 @@ app.get('/result', (req, res) => {
     long: cityResult.coord.lon,
     lat: cityResult.coord.lat,
     weatherM: cityResult.weather[0].main,
-    weatherD: cityResult.weather[0].description
+    weatherD: cityResult.weather[0].description,//From here
+    currentTemp: cityResult.main.temp,
+    feelTemp: cityResult.main.feels_like,
+    minTemp: cityResult.main.temp_min,
+    maxTemp: cityResult.main.temp_max,
+    humidity: cityResult.main.humidity,
+    pressure: cityResult.main.pressure,
+    windSpeed: cityResult.wind.speed
   });
   console.log(cityResult);
 })
