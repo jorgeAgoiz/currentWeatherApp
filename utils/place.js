@@ -7,7 +7,7 @@ const getWeather = async (cityW, countryW) => {
     baseURL: 'https://api.openweathermap.org/data/2.5/weather',
     params: {
           q: cityW+','+countryW,
-          appid: 'a6333ec70f7a6bc969664507a51e8a18',
+          appid: /* ' YOURAPIKEY ' */,
           units: "metric"
     }
     });
