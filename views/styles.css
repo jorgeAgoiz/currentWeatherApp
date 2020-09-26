@@ -26,6 +26,11 @@ footer {
     font-size: calc(0.8em + 1.2vw);   
 }
 
+#dataTemp {
+    font-family: 'Special Elite', cursive;
+    font-size: calc(1.8em + 1.8vw); 
+}
+
 .textRes{
     background-color: rgba(250, 236, 196, 0.5);
 }

@@ -21,8 +21,8 @@ app.post('/', (req, res) => {
 
   const { city, country } = req.body;
 
-  const cityW = req.body.city;
-  const countryW = req.body.country;
+  const cityW = city;
+  const countryW = country;
 
 place.getWeather(cityW, countryW)
       .then( resp => {
@@ -31,6 +31,7 @@ place.getWeather(cityW, countryW)
       })
       .catch( err => {
         console.log(err);
+        res.redirect('http://localhost:3000');
       })
 });
 
